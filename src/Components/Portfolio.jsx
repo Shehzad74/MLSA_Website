@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/squirrel.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "squirrel image";
 
 /**
  * Project list
@@ -30,29 +30,30 @@ const imageAltText = "desktop with books and laptop";
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */
 const projectList = [
+
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "My Gthub Account",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "This is my Blog wesite where everything about me is mentioned.",
+    url: "https://github.com/Shehzad74"
+  }, 
+  {
+    title: "My MLSA Account",
+    description:
+      "This is my Microsoft Learn Student Ambassadors account Profile",
+    url: "https://mvp.microsoft.com/en-US/studentambassadors/profile/5f933e94-1165-413c-953e-8d3779f9f04c",
   },
   {
-    title: "Web Development for Beginners",
+    title: "My Youtube Channel",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "This is my Youtube channel where i have uploaded my videos.",
+    url: "https://www.youtube.com/channel/UC5F_jluuCc1ICcdpYO4ppeA",
   },
   {
-    title: "My Resume Site",
+    title: "My instagram",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "This is my Personal instagram account ",
+    url: "https://www.instagram.com/shehzad_khan444",
   },
 ];
 
